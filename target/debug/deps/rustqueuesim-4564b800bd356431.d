@@ -1,0 +1,9 @@
+/Users/DellUser/Desktop/RustProg/rustqueuesim/target/debug/deps/rustqueuesim-4564b800bd356431.d: src/main.rs Cargo.toml
+
+/Users/DellUser/Desktop/RustProg/rustqueuesim/target/debug/deps/librustqueuesim-4564b800bd356431.rmeta: src/main.rs Cargo.toml
+
+src/main.rs:
+Cargo.toml:
+
+# env-dep:CLIPPY_ARGS=-D__CLIPPY_HACKERY__warnings__CLIPPY_HACKERY__
+# env-dep:CLIPPY_CONF_DIR

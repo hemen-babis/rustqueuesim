@@ -70,6 +70,15 @@ cargo fmt
 cargo clippy --all-targets --all-features -- -D warnings
 ```
 
+## AI Use Disclosure
 
+I used ChatGPT to help me with a few non-coding parts of this project. Specifically, I used it to:
 
-Just tell me!
+- brainstorm the initial module layout after I wrote my proposal
+
+- help me rewrite a few comments in clearer language
+
+- double-check my Rust formatting, clippy expectations, and general project organization
+
+I wrote all the actual Rust code myself and made sure I fully understood the logic in each file.
+All final code, testing, and debugging decisions were my own.

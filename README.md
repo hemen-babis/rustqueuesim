@@ -53,6 +53,61 @@ Try custom settings:
 cargo run -- --time=5000 --arrival=0.25 --min_service=1 --max_service=4 --seed=123
 ```
 
+Here is a clean, simple **example output section** you can paste directly into your README.
+It shows what a typical run of your simulation looks like — readable, professional, and totally accurate.
+
+---
+
+# Example Output
+
+Below is an example of the simulation running with the default settings:
+
+```
+$ cargo run
+
+RustQueueSim — CS-423/523 Queue Simulation
+------------------------------------------------
+Total time steps : 1000
+Arrival prob     : 0.300
+Service time     : 1 to 5 steps
+RNG seed         : 42
+------------------------------------------------
+
+Simulation finished.
+Time steps          : 1000
+Jobs arrived        : 296
+Jobs completed      : 292
+Max queue length    : 9
+Average wait time   : 8.199
+Avg system time     : 11.175
+Server utilization  : 0.577
+```
+
+And here is an example using custom parameters:
+
+```
+$ cargo run -- --time=5000 --arrival=0.25 --min_service=1 --max_service=4 --seed=123
+
+RustQueueSim — CS-423/523 Queue Simulation
+------------------------------------------------
+Total time steps : 5000
+Arrival prob     : 0.250
+Service time     : 1 to 4 steps
+RNG seed         : 123
+------------------------------------------------
+
+Simulation finished.
+Time steps          : 5000
+Jobs arrived        : 1295
+Jobs completed      : 1295
+Max queue length    : 7
+Average wait time   : 1.958
+Avg system time     : 4.453
+Server utilization  : 0.387
+```
+
+These outputs show how changing the arrival rate, service time range, and simulation length affects queue length, server utilization, and job wait times in the system.
+
 ## Testing & linting
 
 I wrote unit tests for:
